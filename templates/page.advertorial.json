@@ -113,7 +113,7 @@
             "padding-left": 10,
             "padding-right": 0,
             "margin-top": 0,
-            "margin-bottom": 0,
+            "margin-bottom": 10,
             "margin-left": 0,
             "margin-right": 0,
             "background_color": "#cafffe",
@@ -124,6 +124,26 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/63054c1017d7afee08b3d393_pushpause-1-p-800_jpg.png"
+          }
+        },
+        "richtext_7rEniE": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "font-size": 16,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 10,
+            "padding-bottom": 0,
+            "padding-left": 0,
+            "padding-right": 0,
+            "margin-top": 0,
+            "margin-bottom": 0,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#fff",
+            "text_color": "#000000"
           }
         },
         "richtext_wWjNzQ": {
@@ -154,6 +174,7 @@
         "richtext_7keGyx",
         "richtext_EttzN9",
         "image_aTr98b",
+        "richtext_7rEniE",
         "richtext_wWjNzQ"
       ],
       "settings": {
