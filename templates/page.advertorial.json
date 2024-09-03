@@ -165,6 +165,26 @@
             "background_color": "#ffffff",
             "text_color": "#525252"
           }
+        },
+        "richtext_Y4B6nE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>The Day Nicole’s Life Changed Forever<\/strong><\/h2>",
+            "font-size": 30,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 10,
+            "padding-bottom": 0,
+            "padding-left": 0,
+            "padding-right": 0,
+            "margin-top": 10,
+            "margin-bottom": 10,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#fff",
+            "text_color": "#525252"
+          }
         }
       },
       "block_order": [
@@ -175,7 +195,8 @@
         "richtext_EttzN9",
         "image_aTr98b",
         "richtext_7rEniE",
-        "richtext_wWjNzQ"
+        "richtext_wWjNzQ",
+        "richtext_Y4B6nE"
       ],
       "settings": {
       }
