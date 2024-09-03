@@ -100,6 +100,26 @@
             "text_color": "#6b6b6b"
           }
         },
+        "richtext_EttzN9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>With thousands of verified 5-star reviews, what is it about our pillowcase that's making everyone want one?<\/p>",
+            "font-size": 16,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 10,
+            "padding-bottom": 10,
+            "padding-left": 10,
+            "padding-right": 0,
+            "margin-top": 0,
+            "margin-bottom": 0,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#cafffe",
+            "text_color": "#525252"
+          }
+        },
         "image_aTr98b": {
           "type": "image",
           "settings": {
@@ -132,6 +152,7 @@
         "richtext_hQLxHi",
         "richtext_6nzNQr",
         "richtext_7keGyx",
+        "richtext_EttzN9",
         "image_aTr98b",
         "richtext_wWjNzQ"
       ],
