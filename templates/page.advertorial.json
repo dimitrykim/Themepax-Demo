@@ -1,1 +1,140 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"advertorial_iKffjt":{"type":"advertorial","blocks":{"richtext_tHDTjz":{"type":"richtext","settings":{"content":"<p>Home › Trending › Gifts<\/p>","font-size":12,"line-height":1.5,"border-left":false,"border-radius":20,"padding-top":20,"padding-bottom":0,"padding-left":0,"padding-right":0,"margin-top":0,"margin-bottom":0,"margin-left":0,"margin-right":0,"background_color":"#ffffff"}},"richtext_hQLxHi":{"type":"richtext","settings":{"content":"<h1>What Makes This Pillowcase The Most Sought-AfterGift Of 2023?<\/h1>","font-size":21,"line-height":1.5,"border-left":false,"border-radius":20,"padding-top":10,"padding-bottom":0,"padding-left":0,"padding-right":0,"margin-top":0,"margin-bottom":0,"margin-left":0,"margin-right":0,"background_color":"#fff"}},"richtext_7keGyx":{"type":"richtext","settings":{"content":"<p>May 01 2023 at 9:17 am EDT<\/p>","font-size":16,"line-height":1.5,"border-left":false,"border-radius":20,"padding-top":5,"padding-bottom":0,"padding-left":0,"padding-right":0,"margin-top":0,"margin-bottom":0,"margin-left":0,"margin-right":0,"background_color":"#fff"}},"richtext_6nzNQr":{"type":"richtext","settings":{"content":"<p><em><strong>\"I can't believe I was 37 years old before I finally got a Blissy! I’m never going back to cotton.\"<\/strong><\/em><\/p>","font-size":22,"line-height":1.5,"border-left":false,"border-radius":20,"padding-top":10,"padding-bottom":0,"padding-left":0,"padding-right":0,"margin-top":0,"margin-bottom":0,"margin-left":0,"margin-right":0,"background_color":"#fff"}},"richtext_wWjNzQ":{"type":"richtext","settings":{"content":"<p>Who knew that a silk pillowcase would be the perfect way to roll out the red carpet for that special someone in your life?<\/p><p>But that’s exactly what happens when someone gets their first Blissy.<\/p><p>The minute your face touches that soft, luxurious 22-Momme Mulberry Silk, <strong>you know your skin is laying on the only silk pillowcase in its class<\/strong>.<\/p><p>“It's such a glam up and so good for your skin and hair.”<\/p><p>No wonder over 2 million people have switched to Blissy.<\/p>","font-size":24,"line-height":1.5,"border-left":false,"border-radius":20,"padding-top":0,"padding-bottom":0,"padding-left":0,"padding-right":0,"margin-top":0,"margin-bottom":0,"margin-left":0,"margin-right":0,"background_color":"#ffffff"}},"image_aTr98b":{"type":"image","settings":{}}},"block_order":["richtext_tHDTjz","richtext_hQLxHi","richtext_7keGyx","richtext_6nzNQr","richtext_wWjNzQ","image_aTr98b"],"settings":{}}},"order":["main","advertorial_iKffjt"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "advertorial_iKffjt": {
+      "type": "advertorial",
+      "blocks": {
+        "richtext_tHDTjz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Home › Trending › Gifts<\/p>",
+            "font-size": 12,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 20,
+            "padding-bottom": 0,
+            "padding-left": 0,
+            "padding-right": 0,
+            "margin-top": 0,
+            "margin-bottom": 0,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#ffffff"
+          }
+        },
+        "richtext_hQLxHi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1><strong>What Makes This Pillowcase The Most Sought-AfterGift Of 2023?<\/strong><\/h1>",
+            "font-size": 17,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 10,
+            "padding-bottom": 0,
+            "padding-left": 0,
+            "padding-right": 0,
+            "margin-top": 0,
+            "margin-bottom": 0,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#ffffff"
+          }
+        },
+        "richtext_7keGyx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>May 01 2023 at 9:17 am EDT<\/p>",
+            "font-size": 16,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 5,
+            "padding-bottom": 0,
+            "padding-left": 0,
+            "padding-right": 0,
+            "margin-top": 0,
+            "margin-bottom": 0,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#ffffff"
+          }
+        },
+        "richtext_6nzNQr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em><strong>\"I can't believe I was 37 years old before I finally got a Blissy! I’m never going back to cotton.\"<\/strong><\/em><\/p>",
+            "font-size": 22,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 10,
+            "padding-bottom": 0,
+            "padding-left": 0,
+            "padding-right": 0,
+            "margin-top": 0,
+            "margin-bottom": 0,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#ffffff"
+          }
+        },
+        "richtext_wWjNzQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Who knew that a silk pillowcase would be the perfect way to roll out the red carpet for that special someone in your life?<\/p><p>But that’s exactly what happens when someone gets their first Blissy.<\/p><p>The minute your face touches that soft, luxurious 22-Momme Mulberry Silk, <strong>you know your skin is laying on the only silk pillowcase in its class<\/strong>.<\/p><p>“It's such a glam up and so good for your skin and hair.”<\/p><p>No wonder over 2 million people have switched to Blissy.<\/p>",
+            "font-size": 24,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 0,
+            "padding-bottom": 0,
+            "padding-left": 0,
+            "padding-right": 0,
+            "margin-top": 0,
+            "margin-bottom": 0,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#ffffff"
+          }
+        },
+        "image_aTr98b": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "richtext_tHDTjz",
+        "richtext_hQLxHi",
+        "richtext_7keGyx",
+        "richtext_6nzNQr",
+        "richtext_wWjNzQ",
+        "image_aTr98b"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advertorial_iKffjt"
+  ]
+}
