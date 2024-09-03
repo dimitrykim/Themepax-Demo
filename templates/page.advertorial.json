@@ -123,27 +123,27 @@
         "image_aTr98b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/63054c1017d7afee08b3d393_pushpause-1-p-800_jpg.png"
+            "image": "shopify:\/\/shop_images\/63054c1017d7afee08b3d393_pushpause-1-p-800_jpg_14049f76-c9aa-49d9-a397-12cc3169e6a8.png"
           }
         },
         "richtext_7rEniE": {
           "type": "richtext",
           "settings": {
-            "content": "",
+            "content": "<p><em>Note: You'll probably never sleep on cotton again!<\/em><\/p>",
             "font-size": 16,
             "line-height": 1.5,
-            "border-left": false,
+            "border-left": true,
             "border-radius": 20,
             "padding-top": 10,
-            "padding-bottom": 0,
-            "padding-left": 0,
+            "padding-bottom": 10,
+            "padding-left": 10,
             "padding-right": 0,
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
             "margin-right": 0,
-            "background_color": "#fff",
-            "text_color": "#000000"
+            "background_color": "#f3f3f3",
+            "text_color": "#525252"
           }
         },
         "richtext_wWjNzQ": {
