@@ -42,8 +42,8 @@
         "richtext_hQLxHi": {
           "type": "richtext",
           "settings": {
-            "content": "<h1><strong>What Makes This Pillowcase The Most Sought-AfterGift Of 2023?<\/strong><\/h1>",
-            "font-size": 17,
+            "content": "<h2><strong>What Makes This Pillowcase The Most Sought-AfterGift Of 2023?<\/strong><\/h2>",
+            "font-size": 27,
             "line-height": 1.5,
             "border-left": false,
             "border-radius": 20,
