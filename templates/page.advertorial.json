@@ -36,14 +36,15 @@
             "margin-bottom": 0,
             "margin-left": 0,
             "margin-right": 0,
-            "background_color": "#ffffff"
+            "background_color": "#ffffff",
+            "text_color": "#6b6b6b"
           }
         },
         "richtext_hQLxHi": {
           "type": "richtext",
           "settings": {
             "content": "<h2><strong>What Makes This Pillowcase The Most Sought-AfterGift Of 2023?<\/strong><\/h2>",
-            "font-size": 27,
+            "font-size": 41,
             "line-height": 1.5,
             "border-left": false,
             "border-radius": 20,
@@ -55,7 +56,8 @@
             "margin-bottom": 0,
             "margin-left": 0,
             "margin-right": 0,
-            "background_color": "#ffffff"
+            "background_color": "#ffffff",
+            "text_color": "#000000"
           }
         },
         "richtext_7keGyx": {
@@ -74,7 +76,8 @@
             "margin-bottom": 0,
             "margin-left": 0,
             "margin-right": 0,
-            "background_color": "#ffffff"
+            "background_color": "#ffffff",
+            "text_color": "#6b6b6b"
           }
         },
         "richtext_6nzNQr": {
@@ -93,7 +96,8 @@
             "margin-bottom": 0,
             "margin-left": 0,
             "margin-right": 0,
-            "background_color": "#ffffff"
+            "background_color": "#ffffff",
+            "text_color": "#232323"
           }
         },
         "richtext_wWjNzQ": {
@@ -112,7 +116,8 @@
             "margin-bottom": 0,
             "margin-left": 0,
             "margin-right": 0,
-            "background_color": "#ffffff"
+            "background_color": "#ffffff",
+            "text_color": "#000000"
           }
         },
         "image_aTr98b": {
