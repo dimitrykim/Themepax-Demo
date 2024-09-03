@@ -205,6 +205,26 @@
             "background_color": "#fff",
             "text_color": "#525252"
           }
+        },
+        "richtext_nDDrBF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>With thousands of verified 5-star reviews, what is it aboutour pillowcase that's making everyone want one?<\/strong><\/h2>",
+            "font-size": 30,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 10,
+            "padding-bottom": 0,
+            "padding-left": 0,
+            "padding-right": 0,
+            "margin-top": 10,
+            "margin-bottom": 20,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#fff",
+            "text_color": "#334fb4"
+          }
         }
       },
       "block_order": [
@@ -217,7 +237,8 @@
         "richtext_7rEniE",
         "richtext_wWjNzQ",
         "richtext_Y4B6nE",
-        "richtext_hrXrCt"
+        "richtext_hrXrCt",
+        "richtext_nDDrBF"
       ],
       "settings": {
       }
