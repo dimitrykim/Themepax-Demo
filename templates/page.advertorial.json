@@ -60,32 +60,6 @@
             "text_color": "#000000"
           }
         },
-        "richtext_7keGyx": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>May 01 2023 at 9:17 am EDT<\/p>",
-            "font-size": 16,
-            "line-height": 1.5,
-            "border-left": false,
-            "border-radius": 20,
-            "padding-top": 5,
-            "padding-bottom": 10,
-            "padding-left": 0,
-            "padding-right": 0,
-            "margin-top": 0,
-            "margin-bottom": 0,
-            "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#ffffff",
-            "text_color": "#6b6b6b"
-          }
-        },
-        "image_aTr98b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/63054c1017d7afee08b3d393_pushpause-1-p-800_jpg.png"
-          }
-        },
         "richtext_6nzNQr": {
           "type": "richtext",
           "settings": {
@@ -104,6 +78,32 @@
             "margin-right": 0,
             "background_color": "#ffffff",
             "text_color": "#232323"
+          }
+        },
+        "richtext_7keGyx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>May 01 2023 at 9:17 am EDT<\/p>",
+            "font-size": 16,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 10,
+            "padding-bottom": 10,
+            "padding-left": 0,
+            "padding-right": 0,
+            "margin-top": 0,
+            "margin-bottom": 0,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#ffffff",
+            "text_color": "#6b6b6b"
+          }
+        },
+        "image_aTr98b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/63054c1017d7afee08b3d393_pushpause-1-p-800_jpg.png"
           }
         },
         "richtext_wWjNzQ": {
@@ -130,9 +130,9 @@
       "block_order": [
         "richtext_tHDTjz",
         "richtext_hQLxHi",
+        "richtext_6nzNQr",
         "richtext_7keGyx",
         "image_aTr98b",
-        "richtext_6nzNQr",
         "richtext_wWjNzQ"
       ],
       "settings": {
