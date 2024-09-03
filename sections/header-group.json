@@ -86,6 +86,8 @@
         "menu_item_qdtzCR"
       ],
       "settings": {
+        "logo_image": "shopify:\/\/shop_images\/Emphasis_BLISSY.png",
+        "mobile_nav_icon": "shopify:\/\/shop_images\/Button_menu_-_menu.svg",
         "logo_alt_text": "BlissyInsider",
         "background": "#181D83"
       }
