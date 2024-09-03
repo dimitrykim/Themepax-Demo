@@ -15,13 +15,14 @@
                 margin-right:{{block.settings.margin-right}}px;
                 margin-top:{{block.settings.margin-top}}px;
                 margin-bottom:{{block.settings.margin-bottom}}px;
-                font-size:{{block.settings.font-size}}px;
-                {%if block.settings.line-height%} line-height:{{block.settings.line-height}};{%endif%}
                 background-color:{{block.settings.background_color}};
                 {%if block.settings.border-left%} border-left: 2px solid; {%else%}{{block.settings.border-radius}}px;{%endif%}
+                font-size:{{block.settings.font-size}}px;
+                {%if block.settings.line-height%} line-height:{{block.settings.line-height}};{%endif%}
+                color: {{ block.settings.text_color }};
               "
             >
-              {{ block.settings.content | newline_to_br }}
+              {{ block.settings.content }}
             </div>
           </div>
 
@@ -353,8 +354,13 @@
                     "label":"Background color",
                     "id":"background_color",
                     "default":"#fff"
+                },
+                {
+                    "type": "color",
+                    "id": "text_color",
+                    "label": "Text Color",
+                    "default": "#000000"
                 }
-
             ]
         },
         {
@@ -469,10 +475,20 @@
       padding:0;
   }
   .ws-advertorial-text p {
-      margin:0;
-      padding:0;
-     margin-bottom: 1em;
+      margin: 0;
+      padding: 0;
   }
+
+  .ws-advertorial-text p:not(:last-child),
+  .ws-advertorial-text h1:not(:last-child),
+  .ws-advertorial-text h2:not(:last-child),
+  .ws-advertorial-text h3:not(:last-child),
+  .ws-advertorial-text h4:not(:last-child),
+  .ws-advertorial-text h5:not(:last-child),
+  .ws-advertorial-text h6:not(:last-child) {
+    margin-bottom: 1em;
+  }
+
   .ws-advertorial-sticky {
       position: sticky;
       top: 0;
@@ -541,5 +557,31 @@
   .ws-advertorial-container {
       padding: 0 15px;
   }
+  }
+
+  .ws-advertorial-text h1,
+  .ws-advertorial-text h2,
+  .ws-advertorial-text h3,
+  .ws-advertorial-text h4,
+  .ws-advertorial-text h5,
+  .ws-advertorial-text h6 {
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ws-advertorial-text br {
+    display: block;
+    content: "";
+    margin-top: 0.5em;
+  }
+
+  .ws-advertorial-text > div > *:first-child {
+    margin-top: 0;
+  }
+
+  .ws-advertorial-text > div > *:last-child {
+    margin-bottom: 0;
   }
 {% endstyle %}
