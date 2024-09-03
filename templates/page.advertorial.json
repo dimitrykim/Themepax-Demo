@@ -185,6 +185,26 @@
             "background_color": "#fff",
             "text_color": "#525252"
           }
+        },
+        "richtext_hrXrCt": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Nicole had been dropping hints to her husband all year. \"My husband knew how bad I wanted a silk pillowcase,\" Nicole said.<\/p><p>\"After reading about how cotton pillowcases can cause nocturnal wrinkles, acne and hair damage… I knew Iwas ready to make the switch to silk. I gotta say, when I unwrapped my presents, little did I know what I was instore for.<\/p><p>There are so many silk pillowcases to choose from but my husband really outdid himself.” Nicole went on to say,“After the first night sleeping on my Blissy, I was a changed woman. I knew Blissy was antibacterial andhypoallergenic and so on... BUT, I never imagined how much it would improve my quality of sleep.  <strong>I didn’t just fall asleep, I dove right in!<\/strong><\/p><p>\"I’ve been sleeping on my blissy for 2 months now and my skin is clearer and my hair is frizz-free! I can't believe I was 37 years old before I finally got a Blissy! I’m never going back to cotton.\"<\/p><p>And that’s just Nicole’s experience. There are over 1,500,000 satisfied Blissy customers just like Nicole.<\/p>",
+            "font-size": 24,
+            "line-height": 1.5,
+            "border-left": false,
+            "border-radius": 20,
+            "padding-top": 10,
+            "padding-bottom": 0,
+            "padding-left": 0,
+            "padding-right": 0,
+            "margin-top": 10,
+            "margin-bottom": 10,
+            "margin-left": 0,
+            "margin-right": 0,
+            "background_color": "#fff",
+            "text_color": "#525252"
+          }
         }
       },
       "block_order": [
@@ -196,7 +216,8 @@
         "image_aTr98b",
         "richtext_7rEniE",
         "richtext_wWjNzQ",
-        "richtext_Y4B6nE"
+        "richtext_Y4B6nE",
+        "richtext_hrXrCt"
       ],
       "settings": {
       }
