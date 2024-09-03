@@ -1,0 +1,205 @@
+{% if section.blocks.size > 0 %}
+  <style>
+    #shopify-section-{{ section.id }} {
+      background-color: {{ section.settings.background_color }};
+      color: {{ section.settings.text_color }};
+      padding: 40px 0;
+      {% if section.settings.separate_section_with_border %}
+        border-top: 1px solid {{ section.settings.border_color }};
+        border-bottom: 1px solid {{ section.settings.border_color }};
+      {% endif %}
+    }
+    .text-with-icons__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .text-with-icons__grid {
+      display: grid;
+      grid-template-columns: repeat({{ section.settings.columns_desktop }}, 1fr);
+      gap: 30px;
+    }
+    .text-with-icons__item {
+      text-align: {{ section.settings.text_alignment }};
+    }
+    .text-with-icons__icon {
+      width: {{ section.settings.icon_width }}px;
+      height: {{ section.settings.icon_width }}px;
+      margin-bottom: 15px;
+    }
+    .text-with-icons__title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .text-with-icons__content {
+      font-size: 14px;
+    }
+    @media screen and (max-width: 767px) {
+      .text-with-icons__grid {
+        {% if section.settings.stack_on_mobile %}
+          grid-template-columns: 1fr;
+        {% else %}
+          grid-template-columns: repeat({{ section.settings.columns_mobile }}, 1fr);
+        {% endif %}
+      }
+      .text-with-icons__icon {
+        width: {{ section.settings.icon_width_mobile }}px;
+        height: {{ section.settings.icon_width_mobile }}px;
+      }
+    }
+  </style>
+
+  <div id="shopify-section-{{ section.id }}" class="shopify-section text-with-icons">
+    <div class="text-with-icons__container">
+      <div class="text-with-icons__grid">
+        {% for block in section.blocks %}
+          <div class="text-with-icons__item" {{ block.shopify_attributes }}>
+            {% if block.settings.icon != blank %}
+              <div class="text-with-icons__icon">
+                {% render 'icon', icon: block.settings.icon, class: 'full-width' %}
+              </div>
+            {% endif %}
+            {% if block.settings.title != blank %}
+              <h3 class="text-with-icons__title">{{ block.settings.title }}</h3>
+            {% endif %}
+            {% if block.settings.content != blank %}
+              <div class="text-with-icons__content">{{ block.settings.content }}</div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Text with Icons",
+  "class": "text-with-icons-section",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "Separate section with border",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Stack on mobile",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "label": "Columns (Desktop)",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "columns_mobile",
+      "label": "Columns (Mobile)",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "icon_width",
+      "label": "Icon Width (Desktop)",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "icon_width_mobile",
+      "label": "Icon Width (Mobile)",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "icon_item",
+      "name": "Icon Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Icon",
+          "info": "Enter the name of the icon"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Feature title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Feature description</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text with Icons",
+      "blocks": [
+        {
+          "type": "icon_item"
+        },
+        {
+          "type": "icon_item"
+        },
+        {
+          "type": "icon_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
