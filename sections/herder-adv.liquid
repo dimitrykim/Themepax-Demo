@@ -1,0 +1,211 @@
+<header class="site-header">
+  <div class="container">
+    <div class="header-logo">
+      <a href="{{ shop.url }}">
+        <img src="{{ section.settings.logo_image | img_url: 'medium' }}" alt="{{ section.settings.logo_alt_text }}">
+      </a>
+    </div>
+    <div class="hamburger-menu" id="hamburger-menu">
+      <div class="menu-icon" id="menu-icon">
+        {% if section.settings.mobile_nav_icon -%}
+          <img src="{{ section.settings.mobile_nav_icon | img_url: 'medium' }}">
+        {%- endif %}
+        <span class="close-icon hide">X</span>
+      </div>
+    </div>
+    <nav class="site-navigation" id="mobile-nav">
+      <ul>
+        {% for block in section.blocks %}
+          <li>
+            <a href="{{ block.settings.menu_item_url }}">{{ block.settings.menu_item_title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+    .site-header {
+      background-color: {{ section.settings.background }}; /* Background color from settings */
+      padding: 20px 15px;
+    }
+    .site-header .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+      align-items: center;
+      position: relative;
+    }
+    .header-logo img {
+      max-height: 50px; /* Adjust as needed */
+      display: flex;
+    }
+    .hamburger-menu {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    .menu-icon .bar {
+      width: 25px;
+      height: 3px;
+      background-color: #ffffff; /* White bar color */
+      margin: 5px 0;
+      transition: 0.4s;
+    }
+    .site-navigation {
+      display: flex;
+      justify-content: flex-end;
+      gap: 26px;
+    }
+    .site-navigation ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap:30px;
+    }
+    .site-navigation li {
+      margin-left: 20px;
+    }
+    .site-navigation a {
+      color: #ffffff; /* White text color */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Mobile styles */
+    @media (max-width: 768px) {
+      .hamburger-menu {
+        display: block;
+      }
+      .site-navigation {
+        position: fixed;
+        top: 0;
+        left: -250px; /* Start off-screen */
+        width: 250px;
+        height: 100%;
+        background-color: {{ section.settings.background }}; /* Use the background color */
+        overflow-y: auto;
+        transition: left 0.4s ease;
+        z-index: 999;
+        padding-top: 60px; /* To avoid overlaying the header */
+        flex-direction: column;
+        z-index: -1;
+                justify-content: flex-start;
+      }
+      .site-navigation ul {
+        flex-direction: column;
+      }
+      .site-navigation.open {
+        left: 0;
+      }
+
+      .close-icon{
+          display: block;
+      }
+       .hide{
+          display: none;
+      }
+      span.close-icon {
+      color: white;
+      font-weight: 800;
+      position: relative;
+      top: -7px;
+      font-size: 19px;
+  }
+    }
+</style>
+
+<script>
+  document.getElementById("menu-icon").onclick = function() {
+    var nav = document.getElementById("mobile-nav");
+     var icon = document.getElementById("menu-icon");
+    nav.classList.toggle("open");
+    icon.querySelector("img").classList.toggle("hide")
+    icon.querySelector("span").classList.toggle("hide")
+  };
+</script>
+
+{% schema %}
+{
+  "name": "Header Advertorial",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo_image",
+      "label": "Logo Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_nav_icon",
+      "label": "Mobile Nav Icon"
+    },
+    {
+      "type": "text",
+      "id": "logo_alt_text",
+      "label": "Logo Alt Text",
+      "default": "BlissyInsider"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background Color",
+      "default": "#181D83"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "menu_item",
+      "name": "Menu Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "menu_item_title",
+          "label": "Menu Item Title",
+          "default": "Menu Title"
+        },
+        {
+          "type": "url",
+          "id": "menu_item_url",
+          "label": "Menu Item URL",
+          "default": "/"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Header Advertorial",
+      "category": "Header",
+      "blocks": [
+        {
+          "type": "menu_item",
+          "settings": {
+            "menu_item_title": "Order",
+            "menu_item_url": "/order"
+          }
+        },
+        {
+          "type": "menu_item",
+          "settings": {
+            "menu_item_title": "About",
+            "menu_item_url": "/about"
+          }
+        },
+        {
+          "type": "menu_item",
+          "settings": {
+            "menu_item_title": "Contact",
+            "menu_item_url": "/contact"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
