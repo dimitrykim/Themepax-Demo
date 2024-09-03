@@ -63,7 +63,7 @@
         "richtext_6nzNQr": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em><strong>\"I can't believe I was 37 years old before I finally got a Blissy! I’m never going back to cotton.\"<\/strong><\/em><\/p>",
+            "content": "<p><span style=\"text-decoration:underline\"><em><strong>\"I can't believe I was 37 years old before I finally got a Blissy! I’m never going back to cotton.\"<\/strong><\/em><\/span><\/p>",
             "font-size": 22,
             "line-height": 1.5,
             "border-left": false,
