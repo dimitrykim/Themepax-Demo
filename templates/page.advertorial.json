@@ -269,6 +269,7 @@
           "type": "button",
           "settings": {
             "button-text": "Button text",
+            "button-text-color": "#f70c0c",
             "font-size": 24,
             "button-url": "Button url",
             "background-color": "#f0c14b",
