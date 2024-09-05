@@ -240,9 +240,13 @@
           "type": "sticky",
           "settings": {
             "text": "Follow Us",
+            "facebook": "shopify:\/\/shop_images\/Background.png",
             "facebook_url": "",
+            "instagram": "shopify:\/\/shop_images\/Background.png",
             "instagram_url": "",
+            "twitter": "shopify:\/\/shop_images\/Background.png",
             "twitter_url": "",
+            "pinterest": "shopify:\/\/shop_images\/Background.png",
             "pinterest_url": "",
             "logo": "shopify:\/\/shop_images\/devicon_google.svg",
             "header": "",
