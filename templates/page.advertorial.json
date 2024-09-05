@@ -256,8 +256,9 @@
             "line-height-content": 1.5,
             "main_image": "shopify:\/\/shop_images\/5f0fa2d6eea37c6d778477f7_blissy-box-500_jpg.png",
             "content": "<p>Get the Blissy 100% MulberrySilk Pillowcase for better sleep,smooth hair and glowing skin.<\/p>",
-            "btn_url": "",
-            "btn_text": ""
+            "content_alignment": "center",
+            "btn_text": "Check Availability",
+            "btn_url": ""
           }
         }
       },
