@@ -46,7 +46,7 @@
               font-size:{{block.settings.font-size}}px;
               {%if block.settings.line-height%} line-height:{{block.settings.line-height}};{%endif%}
               background-color:{{block.settings.background-color}};
-              {%if block.settings.border%}border: 1px solid #000;{%endif%}
+              {%if block.settings.border%}border: {{ block.settings.border-thickness }}px solid {{ block.settings.border-color }};{%endif%}
               padding-top:{{block.settings.padding-top}}px;
               padding-bottom:{{block.settings.padding-bottom}}px;
                margin-top:{{block.settings.margin-top}}px;
@@ -531,6 +531,32 @@
                     "id":"border",
                     "default":true
                 },
+               {
+      "type": "range",
+      "id": "border-thickness",
+      "label": "Border Thickness",
+      "default": 1,
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "color",
+      "label": "Border Color",
+      "id": "border-color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "border-radius",
+      "label": "Corner Radius",
+      "default": 0,
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px"
+    },
                  {
                     "type":"range",
                     "id":"padding-top",
