@@ -98,7 +98,7 @@
                 {% endif %}
               {% endfor %}
             </div>
-            <div class="ws-advertorial-main">
+            <div class="ws-advertorial-main" style="border-radius: {{ block.settings.border_radius }}px;">
               <img class="ws-advertorial-main__logo" src="{{block.settings.logo | image_url}}">
               <div
                 class="ws-advertorial-heading"
@@ -160,6 +160,16 @@
             "name":"Featured Product",
             "limit":1,
             "settings": [
+              {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border Radius",
+      "default": 20,
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px"
+    },
               {
       "type": "range",
       "id": "margin_top",
