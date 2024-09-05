@@ -64,7 +64,15 @@
   {% for block in section.blocks %}
     {% case block.type %}
       {% when 'sticky' %}
-        <div class="ws-advertorial-sticky">
+        <div
+          class="ws-advertorial-sticky"
+          style="
+            margin-top: {{ block.settings.margin_top }}px;
+            margin-right: {{ block.settings.margin_right }}px;
+            margin-bottom: {{ block.settings.margin_bottom }}px;
+            margin-left: {{ block.settings.margin_left }}px;
+          "
+        >
           <div class="ws-advertorial-container-item ws-advertorial-container-sticky">
             <div class="ws-advertorial-text">{{ block.settings.text }}</div>
             <div class="ws-advertorial-socials">
@@ -138,7 +146,47 @@
             "name":"Featured Product",
             "limit":1,
             "settings": [
-                {
+              {
+      "type": "range",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "margin_right",
+      "label": "Margin Right",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "margin_left",
+      "label": "Margin Left",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+              {
                     "type":"text",
                     "label":"Title",
                     "id":"text",
