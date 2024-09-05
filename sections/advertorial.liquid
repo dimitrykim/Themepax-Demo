@@ -1,4 +1,4 @@
-<div class="ws-advertorial-shopify-section">
+<div class="ws-advertorial-shopify-section" style="max-width: {{ section.settings.section_width }}px;">
   <div class="ws-advertorial-container">
     {% for block in section.blocks %}
       {% case block.type %}
@@ -65,7 +65,6 @@
       {% endcase %}
     {% endfor %}
   </div>
-  <div class="ws-advertorial-shopify-section" style="max-width: {{ section.settings.section_width }}px;">
 
   {% for block in section.blocks %}
     {% case block.type %}
@@ -146,7 +145,7 @@
 </div>
 
 {% schema %}
-  
+
   {
     "name": "TPAX-Advertorial",
     "presets" : [
