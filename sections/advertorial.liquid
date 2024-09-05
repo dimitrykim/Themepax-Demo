@@ -100,12 +100,14 @@
             </div>
             <div
               class="ws-advertorial-main"
-              style="border-radius: {{ block.settings.border_radius }}px;"
-              border:
-              1px
-              solid
-              {{ block.settings.border_color }}
-              ;
+              style="
+                border-radius: {{ block.settings.border_radius }}px;
+                border:
+                1px
+                solid
+                {{ block.settings.border_color }}
+                ;
+              "
             >
               <img class="ws-advertorial-main__logo" src="{{block.settings.logo | image_url}}">
               <div
