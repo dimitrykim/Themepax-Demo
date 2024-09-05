@@ -65,6 +65,7 @@
       {% endcase %}
     {% endfor %}
   </div>
+  <div class="ws-advertorial-shopify-section" style="max-width: {{ section.settings.section_width }}px;">
 
   {% for block in section.blocks %}
     {% case block.type %}
@@ -145,6 +146,7 @@
 </div>
 
 {% schema %}
+  
   {
     "name": "TPAX-Advertorial",
     "presets" : [
@@ -168,7 +170,16 @@
         }
     ],
     "settings": [
-
+{
+      "type": "range",
+      "id": "section_width",
+      "min": 800,
+      "max": 1600,
+      "step": 50,
+      "unit": "px",
+      "label": "Section Width",
+      "default": 1200
+    }
     ],
     "blocks": [
          {
@@ -653,7 +664,6 @@
           color: inherit;
       }
       .ws-advertorial-shopify-section {
-          max-width: 1200px;
           margin: 0 auto;
           display:flex;
           gap: 20px;
