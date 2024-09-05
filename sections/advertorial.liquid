@@ -46,7 +46,7 @@
                 font-size:{{block.settings.font-size}}px;
                 {%if block.settings.line-height%} line-height:{{block.settings.line-height}};{%endif%}
                 background-color:{{block.settings.background-color}};
-                {%if block.settings.border%}border: {{ block.settings.border-thickness }}px solid {{ block.settings.border-color }};{%endif%}
+                {%if block.settings.border%}border: {{ block.settings.border-thickness }}px solid {{ block.settings.border-color }} !important;{%endif%}
               border-radius: {{ block.settings.border-radius }}px;
                 padding-top:{{block.settings.padding-top}}px;
                 padding-bottom:{{block.settings.padding-bottom}}px;
