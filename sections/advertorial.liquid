@@ -54,7 +54,11 @@
                 margin-bottom:{{block.settings.margin-bottom}}px;
             "
           >
-            <a href="{{block.settings.button-url}}" class="ws-advertorial-button">
+            <a
+              href="{{block.settings.button-url}}"
+              class="ws-advertorial-button"
+              style="color: {{ block.settings.button-text-color }};"
+            >
               {{- block.settings['button-text'] -}}
             </a>
           </div>
@@ -505,6 +509,12 @@
                     "id":"button-text",
                     "default":"Button text"
                 },
+              {
+      "type": "color",
+      "label": "Button Text Color",
+      "id": "button-text-color",
+      "default": "#000000"
+    },
                 {
                     "type":"range",
                     "id":"font-size",
