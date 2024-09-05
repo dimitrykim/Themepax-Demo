@@ -602,117 +602,135 @@
 {% endschema %}
 
 {% style %}
-  a {
+    a {
+        color: inherit;
+    }
+    .ws-advertorial-shopify-section {
+        max-width: 1200px;
+        margin: 0 auto;
+        display:flex;
+        gap: 20px;
+    }
+
+    .ws-advertorial-container {
+        padding-left: 15px;
+    }
+    .ws-advertorial-text{
+        padding-left: {{}}
+    }
+    .ws-advertorial-text h2,.ws-advertorial-text h1,.ws-advertorial-text h3{
+        margin:0;
+        padding:0;
+    }
+    .ws-advertorial-text p {
+        margin:0;
+        padding:0;
+    }
+    .ws-advertorial-sticky {
+        position: sticky;
+        top: 0;
+        height: fit-content;
+        flex: 0 0 22%;
+    }
+    .ws-advertorial-heading {
+        display: block;
+        text-align: center;
+        padding: 14px 20px;
+        letter-spacing: -1.2px;
+    }
+    .ws-advertorial-heading p {
+        margin: 0;
+        padding: 0;
+    }
+    img.ws-advertorial-main__logo, .ws-advertorial-main__image {
+        display: flex;
+        margin: 0 auto;
+    }
+    .ws-advertorial-main {
+        border: 1px solid #221366;
+        border-radius: 20px;
+        padding-top:14px;
+    }
+    .ws-advertorial-content{
+         padding: 14px 20px;
+    }
+    .ws-advertorial-content p {
+        margin: 0;
+        padding: 0;
+    }
+
+  .ws-advertorial-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .ws-advertorial-socials a {
+    flex: 1;
+    text-align: center;
+  }
+
+  .ws-advertorial-socials img {
+    max-width: 100%;
+    height: auto;
+  }
+
+    a.ws-advertorial-btn {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+        background: #221366;
+        border-radius: 0px 0px 20px 20px;
+        color: #FFF;
+        padding:6px 0;
+        text-decoration:unset;
+    }
+    .ws-advertorial-image img {
+        display: block;
+        width: 100%;
+    }
+    .ws-advertorial-button {
+        text-align: center;
+        display: block;
+        font-weight: 700;
+        text-decoration: none;
+        line-height: 1;
+    }
+    @media (max-width: 768px) {
+    .ws-advertorial-shopify-section {
+        flex-direction: column;
+    }
+    .ws-advertorial-sticky {
+        position: sticky;
+        top: 0;
+        height: fit-content;
+        margin: 20px;
+    }
+    .ws-advertorial-container {
+        padding: 0 15px;
+    }
+    }
+
+    .ws-advertorial-text-content,
+    .ws-advertorial-text-content h1,
+    .ws-advertorial-text-content h2,
+    .ws-advertorial-text-content h3,
+    .ws-advertorial-text-content h4,
+    .ws-advertorial-text-content h5,
+    .ws-advertorial-text-content h6,
+    .ws-advertorial-text-content p {
+      font-size: inherit;
+      line-height: inherit;
       color: inherit;
-  }
-  .ws-advertorial-shopify-section {
-      max-width: 1200px;
-      margin: 0 auto;
-      display:flex;
-      gap: 20px;
-  }
+    }
 
-  .ws-advertorial-container {
-      padding-left: 15px;
-  }
-  .ws-advertorial-text{
-      padding-left: {{}}
-  }
-  .ws-advertorial-text h2,.ws-advertorial-text h1,.ws-advertorial-text h3{
-      margin:0;
-      padding:0;
-  }
-  .ws-advertorial-text p {
-      margin:0;
-      padding:0;
-  }
-  .ws-advertorial-sticky {
-      position: sticky;
-      top: 0;
-      height: fit-content;
-      flex: 0 0 22%;
-  }
-  .ws-advertorial-heading {
-      display: block;
-      text-align: center;
-      padding: 14px 20px;
-      letter-spacing: -1.2px;
-  }
-  .ws-advertorial-heading p {
-      margin: 0;
-      padding: 0;
-  }
-  img.ws-advertorial-main__logo, .ws-advertorial-main__image {
-      display: flex;
-      margin: 0 auto;
-  }
-  .ws-advertorial-main {
-      border: 1px solid #221366;
-      border-radius: 20px;
-      padding-top:14px;
-  }
-  .ws-advertorial-content{
-       padding: 14px 20px;
-  }
-  .ws-advertorial-content p {
-      margin: 0;
-      padding: 0;
-  }
-  a.ws-advertorial-btn {
-      display: flex;
-      text-align: center;
-      margin: 0 auto;
-      width: 100%;
-      justify-content: center;
-      background: #221366;
-      border-radius: 0px 0px 20px 20px;
-      color: #FFF;
-      padding:6px 0;
-      text-decoration:unset;
-  }
-  .ws-advertorial-image img {
-      display: block;
-      width: 100%;
-  }
-  .ws-advertorial-button {
-      text-align: center;
-      display: block;
-      font-weight: 700;
-      text-decoration: none;
-      line-height: 1;
-  }
-  @media (max-width: 768px) {
-  .ws-advertorial-shopify-section {
-      flex-direction: column;
-  }
-  .ws-advertorial-sticky {
-      position: sticky;
-      top: 0;
-      height: fit-content;
-      margin: 20px;
-  }
-  .ws-advertorial-container {
-      padding: 0 15px;
-  }
-  }
-
-  .ws-advertorial-text-content,
-  .ws-advertorial-text-content h1,
-  .ws-advertorial-text-content h2,
-  .ws-advertorial-text-content h3,
-  .ws-advertorial-text-content h4,
-  .ws-advertorial-text-content h5,
-  .ws-advertorial-text-content h6,
-  .ws-advertorial-text-content p {
-    font-size: inherit;
-    line-height: inherit;
-    color: inherit;
-  }
-
-  .ws-advertorial-text-content h1 { font-size: 2em; }
-  .ws-advertorial-text-content h2 { font-size: 1.5em; }
-  .ws-advertorial-text-content h3 { font-size: 1.17em; }
-  .ws-advertorial-text-content h4 { font-size: 1em; }
-  .ws-advertorial-text-content h5 { font-size: 0.83em; }
-  .ws-advertorial-text-content h6 { font-size: 0.67em; }
+    .ws-advertorial-text-content h1 { font-size: 2em; }
+    .ws-advertorial-text-content h2 { font-size: 1.5em; }
+    .ws-advertorial-text-content h3 { font-size: 1.17em; }
+    .ws-advertorial-text-content h4 { font-size: 1em; }
+    .ws-advertorial-text-content h5 { font-size: 0.83em; }
+    .ws-advertorial-text-content h6 { font-size: 0.67em; }
 {% endstyle %}
