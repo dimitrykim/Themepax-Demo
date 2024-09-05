@@ -257,15 +257,41 @@
             "name":"Richtext",
             "settings": [
                 {
+                    "type":"color",
+                    "label":"Background color",
+                    "id":"background_color",
+                    "default":"#fff"
+                },
+              {
                     "type":"richtext",
                     "label":"Content",
                     "id":"content"
                 },
               {
                     "type":"color",
-                    "label":"Background color",
-                    "id":"background_color",
-                    "default":"#fff"
+                    "label":"Text color",
+                    "id":"text_color",
+                    "default":"#000000"
+                },
+                {
+                    "type":"select",
+                    "label":"Text alignment",
+                    "id":"text_align",
+                    "options": [
+                        {
+                            "value": "left",
+                            "label": "Left"
+                        },
+                        {
+                            "value": "center",
+                            "label": "Center"
+                        },
+                        {
+                            "value": "right",
+                            "label": "Right"
+                        }
+                    ],
+                    "default": "left"
                 },
                 {
                     "type":"range",
@@ -370,32 +396,6 @@
                     "min":0,
                     "max":100,
                     "step":1
-                },
-                {
-                    "type":"color",
-                    "label":"Text color",
-                    "id":"text_color",
-                    "default":"#000000"
-                },
-                {
-                    "type":"select",
-                    "label":"Text alignment",
-                    "id":"text_align",
-                    "options": [
-                        {
-                            "value": "left",
-                            "label": "Left"
-                        },
-                        {
-                            "value": "center",
-                            "label": "Center"
-                        },
-                        {
-                            "value": "right",
-                            "label": "Right"
-                        }
-                    ],
-                    "default": "left"
                 }
             ]
         },
