@@ -109,27 +109,30 @@
                 ;
               "
             >
-              <img class="ws-advertorial-main__logo" src="{{block.settings.logo | image_url}}">
-              <div
-                class="ws-advertorial-heading"
-                style="
-                  font-size: {{block.settings.font-size-header}}px;
-                  line-height: {{block.settings.line-height-header}};
-                "
-              >
-                {{ block.settings.header }}
-              </div>
-              <img class="ws-advertorial-main__image" src="{{block.settings.main_image| image_url}}">
-              <div
-                class="ws-advertorial-content"
-                style="
-                   font-size: {{block.settings.font-size-content}}px;
-                   line-height: {{block.settings.line-height-content}};
-                  text-align: {{ block.settings.content_alignment }};
-                "
-              >
-                {{ block.settings.content }}
-              </div>
+              <a href="{{ block.settings.btn_url }}" class="ws-advertorial-main">
+                <img class="ws-advertorial-main__logo" src="{{block.settings.logo | image_url}}">
+                <div
+                  class="ws-advertorial-heading"
+                  style="
+                    font-size: {{block.settings.font-size-header}}px;
+                    line-height: {{block.settings.line-height-header}};
+                  "
+                >
+                  {{ block.settings.header }}
+                </div>
+                <img class="ws-advertorial-main__image" src="{{block.settings.main_image| image_url}}">
+                <div
+                  class="ws-advertorial-content"
+                  style="
+                     font-size: {{block.settings.font-size-content}}px;
+                     line-height: {{block.settings.line-height-content}};
+                    text-align: {{ block.settings.content_alignment }};
+                  "
+                >
+                  {{ block.settings.content }}
+                </div>
+                <div class="ws-advertorial-btn">{{ block.settings.btn_text }}</div>
+              </a>
               <a
                 class="ws-advertorial-btn"
                 href="{{block.settings.btn_url}}"
