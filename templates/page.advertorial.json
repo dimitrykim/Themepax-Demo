@@ -271,9 +271,9 @@
             "button-text": "Button text",
             "font-size": 24,
             "button-url": "Button url",
-            "background-color": "#F0C14B",
+            "background-color": "#f0c14b",
             "border": true,
-            "padding-top": 0,
+            "padding-top": 20,
             "padding-bottom": 0,
             "margin-top": 0,
             "margin-bottom": 0
