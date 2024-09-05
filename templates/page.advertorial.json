@@ -24,6 +24,7 @@
           "type": "richtext",
           "settings": {
             "content": "<p>Home › Trending › Gifts<\/p>",
+            "background_color": "#ffffff",
             "font-size": 16,
             "line-height": 1.5,
             "border-left": false,
@@ -35,16 +36,15 @@
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#ffffff",
-            "text_color": "#6b6b6b"
+            "margin-right": 0
           }
         },
         "richtext_hQLxHi": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>What Makes This Pillowcase The Most Sought-After Gift Of 2023?<\/strong><\/h2>",
-            "font-size": 41,
+            "content": "<h1><strong>What Makes This Pillowcase The Most Sought-After Gift Of 2023?<\/strong><\/h1>",
+            "background_color": "#ffffff",
+            "font-size": 31,
             "line-height": 1.5,
             "border-left": false,
             "border-radius": 21,
@@ -55,15 +55,14 @@
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#ffffff",
-            "text_color": "#000000"
+            "margin-right": 0
           }
         },
         "richtext_6nzNQr": {
           "type": "richtext",
           "settings": {
             "content": "<p><span style=\"text-decoration:underline\"><em><strong>\"I can't believe I was 37 years old before I finally got a Blissy! I’m never going back to cotton.\"<\/strong><\/em><\/span><\/p>",
+            "background_color": "#ffffff",
             "font-size": 22,
             "line-height": 1.5,
             "border-left": false,
@@ -75,15 +74,14 @@
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#ffffff",
-            "text_color": "#232323"
+            "margin-right": 0
           }
         },
         "richtext_7keGyx": {
           "type": "richtext",
           "settings": {
             "content": "<p>May 01 2023 at 9:17 am EDT<\/p>",
+            "background_color": "#ffffff",
             "font-size": 16,
             "line-height": 1.5,
             "border-left": false,
@@ -95,15 +93,14 @@
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#ffffff",
-            "text_color": "#6b6b6b"
+            "margin-right": 0
           }
         },
         "richtext_EttzN9": {
           "type": "richtext",
           "settings": {
             "content": "<p>With thousands of verified 5-star reviews, what is it about our pillowcase that's making everyone want one?<\/p>",
+            "background_color": "#cafffe",
             "font-size": 16,
             "line-height": 1.5,
             "border-left": false,
@@ -115,9 +112,7 @@
             "margin-top": 0,
             "margin-bottom": 10,
             "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#cafffe",
-            "text_color": "#525252"
+            "margin-right": 0
           }
         },
         "image_aTr98b": {
@@ -130,6 +125,7 @@
           "type": "richtext",
           "settings": {
             "content": "<p><em>Note: You'll probably never sleep on cotton again!<\/em><\/p>",
+            "background_color": "#f3f3f3",
             "font-size": 16,
             "line-height": 1.5,
             "border-left": true,
@@ -141,15 +137,14 @@
             "margin-top": 10,
             "margin-bottom": 20,
             "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#f3f3f3",
-            "text_color": "#525252"
+            "margin-right": 0
           }
         },
         "richtext_wWjNzQ": {
           "type": "richtext",
           "settings": {
             "content": "<p>Who knew that a silk pillowcase would be the perfect way to roll out the red carpet for that special someone in your life?<\/p><p>But that’s exactly what happens when someone gets their first Blissy.<\/p><p>The minute your face touches that soft, luxurious 22-Momme Mulberry Silk, <strong>you know your skin is laying on the only silk pillowcase in its class<\/strong>.<\/p><p>“It's such a glam up and so good for your skin and hair.”<\/p><p>No wonder over 2 million people have switched to Blissy.<\/p>",
+            "background_color": "#ffffff",
             "font-size": 24,
             "line-height": 1.5,
             "border-left": false,
@@ -161,15 +156,14 @@
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#ffffff",
-            "text_color": "#525252"
+            "margin-right": 0
           }
         },
         "richtext_Y4B6nE": {
           "type": "richtext",
           "settings": {
             "content": "<h2><strong>The Day Nicole’s Life Changed Forever<\/strong><\/h2>",
+            "background_color": "#ffffff",
             "font-size": 30,
             "line-height": 1.5,
             "border-left": false,
@@ -181,15 +175,14 @@
             "margin-top": 10,
             "margin-bottom": 10,
             "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#fff",
-            "text_color": "#525252"
+            "margin-right": 0
           }
         },
         "richtext_hrXrCt": {
           "type": "richtext",
           "settings": {
             "content": "<p>Nicole had been dropping hints to her husband all year. \"My husband knew how bad I wanted a silk pillowcase,\" Nicole said.<\/p><p>\"After reading about how cotton pillowcases can cause nocturnal wrinkles, acne and hair damage… I knew Iwas ready to make the switch to silk. I gotta say, when I unwrapped my presents, little did I know what I was instore for.<\/p><p>There are so many silk pillowcases to choose from but my husband really outdid himself.” Nicole went on to say,“After the first night sleeping on my Blissy, I was a changed woman. I knew Blissy was antibacterial andhypoallergenic and so on... BUT, I never imagined how much it would improve my quality of sleep.  <strong>I didn’t just fall asleep, I dove right in!<\/strong><\/p><p>\"I’ve been sleeping on my blissy for 2 months now and my skin is clearer and my hair is frizz-free! I can't believe I was 37 years old before I finally got a Blissy! I’m never going back to cotton.\"<\/p><p>And that’s just Nicole’s experience. There are over 1,500,000 satisfied Blissy customers just like Nicole.<\/p>",
+            "background_color": "#ffffff",
             "font-size": 24,
             "line-height": 1.5,
             "border-left": false,
@@ -201,15 +194,14 @@
             "margin-top": 10,
             "margin-bottom": 10,
             "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#fff",
-            "text_color": "#525252"
+            "margin-right": 0
           }
         },
         "richtext_nDDrBF": {
           "type": "richtext",
           "settings": {
             "content": "<h2><strong>With thousands of verified 5-star reviews, what is it aboutour pillowcase that's making everyone want one?<\/strong><\/h2>",
+            "background_color": "#ffffff",
             "font-size": 30,
             "line-height": 1.5,
             "border-left": false,
@@ -221,9 +213,7 @@
             "margin-top": 10,
             "margin-bottom": 20,
             "margin-left": 0,
-            "margin-right": 0,
-            "background_color": "#fff",
-            "text_color": "#334fb4"
+            "margin-right": 0
           }
         }
       },
