@@ -36,7 +36,9 @@
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
-            "margin-right": 0
+            "margin-right": 0,
+            "text_color": "#000000",
+            "text_align": "left"
           }
         },
         "richtext_hQLxHi": {
@@ -44,7 +46,7 @@
           "settings": {
             "content": "<h1><strong>What Makes This Pillowcase The Most Sought-After Gift Of 2023?<\/strong><\/h1>",
             "background_color": "#ffffff",
-            "font-size": 31,
+            "font-size": 19,
             "line-height": 1.5,
             "border-left": false,
             "border-radius": 21,
@@ -55,7 +57,9 @@
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
-            "margin-right": 0
+            "margin-right": 0,
+            "text_color": "#000000",
+            "text_align": "left"
           }
         },
         "richtext_6nzNQr": {
@@ -74,7 +78,9 @@
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
-            "margin-right": 0
+            "margin-right": 0,
+            "text_color": "#000000",
+            "text_align": "left"
           }
         },
         "richtext_7keGyx": {
@@ -93,7 +99,9 @@
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
-            "margin-right": 0
+            "margin-right": 0,
+            "text_color": "#000000",
+            "text_align": "left"
           }
         },
         "richtext_EttzN9": {
@@ -104,7 +112,7 @@
             "font-size": 16,
             "line-height": 1.5,
             "border-left": false,
-            "border-radius": 20,
+            "border-radius": 0,
             "padding-top": 10,
             "padding-bottom": 10,
             "padding-left": 10,
@@ -112,7 +120,9 @@
             "margin-top": 0,
             "margin-bottom": 10,
             "margin-left": 0,
-            "margin-right": 0
+            "margin-right": 0,
+            "text_color": "#000000",
+            "text_align": "left"
           }
         },
         "image_aTr98b": {
@@ -137,7 +147,9 @@
             "margin-top": 10,
             "margin-bottom": 20,
             "margin-left": 0,
-            "margin-right": 0
+            "margin-right": 0,
+            "text_color": "#000000",
+            "text_align": "left"
           }
         },
         "richtext_wWjNzQ": {
@@ -156,7 +168,9 @@
             "margin-top": 0,
             "margin-bottom": 0,
             "margin-left": 0,
-            "margin-right": 0
+            "margin-right": 0,
+            "text_color": "#000000",
+            "text_align": "left"
           }
         },
         "richtext_Y4B6nE": {
@@ -175,7 +189,9 @@
             "margin-top": 10,
             "margin-bottom": 10,
             "margin-left": 0,
-            "margin-right": 0
+            "margin-right": 0,
+            "text_color": "#000000",
+            "text_align": "left"
           }
         },
         "richtext_hrXrCt": {
@@ -194,7 +210,9 @@
             "margin-top": 10,
             "margin-bottom": 10,
             "margin-left": 0,
-            "margin-right": 0
+            "margin-right": 0,
+            "text_color": "#000000",
+            "text_align": "left"
           }
         },
         "richtext_nDDrBF": {
@@ -213,7 +231,9 @@
             "margin-top": 10,
             "margin-bottom": 20,
             "margin-left": 0,
-            "margin-right": 0
+            "margin-right": 0,
+            "text_color": "#000000",
+            "text_align": "left"
           }
         }
       },
