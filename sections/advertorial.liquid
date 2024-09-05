@@ -133,7 +133,7 @@
               <a
                 class="ws-advertorial-btn"
                 href="{{block.settings.btn_url}}"
-                style="background-color: {{ block.settings.border_color }}; border-radius: 0 0 {{ block.settings.border_radius }}px {{ block.settings.border_radius }}px;"
+                style="background-color: {{ block.settings.border_color }}; border-radius: 0 0 {{ block.settings.border_radius }}px {{ block.settings.border_radius }}px; color: {{ block.settings.btn_text_color }};"
               >
                 {{ block.settings.btn_text -}}
               </a>
@@ -366,6 +366,12 @@
                     "label":"CTA Text",
                     "id":"btn_text"
                 },
+              {
+  "type": "color",
+  "id": "btn_text_color",
+  "label": "Button Text Color",
+  "default": "#FFFFFF"
+},
               {
                     "type":"text",
                     "label":"CTA URL",
@@ -733,7 +739,6 @@
           margin: 0 auto;
           width: 100%;
           justify-content: center;
-          color: #FFF;
           padding:6px 0;
           text-decoration:unset;
       }
