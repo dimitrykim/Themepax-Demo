@@ -264,6 +264,20 @@
             "margin-left": 0,
             "margin-right": 0
           }
+        },
+        "button_PVF3Tw": {
+          "type": "button",
+          "settings": {
+            "button-text": "Button text",
+            "font-size": 24,
+            "button-url": "Button url",
+            "background-color": "#F0C14B",
+            "border": true,
+            "padding-top": 0,
+            "padding-bottom": 0,
+            "margin-top": 0,
+            "margin-bottom": 0
+          }
         }
       },
       "block_order": [
@@ -278,7 +292,8 @@
         "richtext_wWjNzQ",
         "richtext_Y4B6nE",
         "richtext_hrXrCt",
-        "richtext_nDDrBF"
+        "richtext_nDDrBF",
+        "button_PVF3Tw"
       ],
       "settings": {
       }
