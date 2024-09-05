@@ -43,14 +43,15 @@
           <div
             class="ws-advertorial-container-item"
             style="
-              font-size:{{block.settings.font-size}}px;
-              {%if block.settings.line-height%} line-height:{{block.settings.line-height}};{%endif%}
-              background-color:{{block.settings.background-color}};
-              {%if block.settings.border%}border: {{ block.settings.border-thickness }}px solid {{ block.settings.border-color }};{%endif%}
-              padding-top:{{block.settings.padding-top}}px;
-              padding-bottom:{{block.settings.padding-bottom}}px;
-               margin-top:{{block.settings.margin-top}}px;
-              margin-bottom:{{block.settings.margin-bottom}}px;
+                font-size:{{block.settings.font-size}}px;
+                {%if block.settings.line-height%} line-height:{{block.settings.line-height}};{%endif%}
+                background-color:{{block.settings.background-color}};
+                {%if block.settings.border%}border: {{ block.settings.border-thickness }}px solid {{ block.settings.border-color }};{%endif%}
+              border-radius: {{ block.settings.border-radius }}px;
+                padding-top:{{block.settings.padding-top}}px;
+                padding-bottom:{{block.settings.padding-bottom}}px;
+                 margin-top:{{block.settings.margin-top}}px;
+                margin-bottom:{{block.settings.margin-bottom}}px;
             "
           >
             <a href="{{block.settings.button-url}}" class="ws-advertorial-button">
