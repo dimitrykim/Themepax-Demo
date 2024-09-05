@@ -273,8 +273,11 @@
             "button-url": "Button url",
             "background-color": "#f0c14b",
             "border": true,
+            "border-thickness": 5,
+            "border-color": "#181d83",
+            "border-radius": 28,
             "padding-top": 20,
-            "padding-bottom": 0,
+            "padding-bottom": 20,
             "margin-top": 0,
             "margin-bottom": 0
           }
