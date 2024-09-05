@@ -76,10 +76,22 @@
           <div class="ws-advertorial-container-item ws-advertorial-container-sticky">
             <div class="ws-advertorial-text">{{ block.settings.text }}</div>
             <div class="ws-advertorial-socials">
-              <img src="{{block.settings.facebook | image_url}}" href="{{block.settings.facebook_url}}">
-              <img src="{{block.settings.twitter| image_url}}" href="{{block.settings.twitter_url}}">
-              <img src="{{block.settings.instagram| image_url}}" href="{{block.settings.instagram_url}}">
-              <img src="{{block.settings.pinterest| image_url}}" href="{{block.settings.pinterest_url}}">
+              {% assign social_networks = 'facebook,twitter,instagram,pinterest' | split: ',' %}
+              {% for network in social_networks %}
+                {% assign image_setting = network %}
+                {% assign url_setting = network | append: '_url' %}
+                {% if block.settings[image_setting] != blank and block.settings[image_setting].src != blank %}
+                  <a href="{{ block.settings[url_setting] }}" class="social-icon-link">
+                    <img
+                      src="{{ block.settings[image_setting] | image_url: width: 50 }}"
+                      alt="{{ network | capitalize }}"
+                      class="social-icon"
+                    >
+                  </a>
+                {% else %}
+                  <div class="social-icon-placeholder"></div>
+                {% endif %}
+              {% endfor %}
             </div>
             <div class="ws-advertorial-main">
               <img class="ws-advertorial-main__logo" src="{{block.settings.logo | image_url}}">
