@@ -17,7 +17,6 @@
                 margin-bottom:{{block.settings.margin-bottom}}px;
                 background-color:{{block.settings.background_color}};
                 {%if block.settings.border-left%} border-left: 5px solid; {%else%}border-radius:{{block.settings.border-radius}}px;{%endif%}
-                color: {{ block.settings.text_color }};
                 text-align: {{ block.settings.text_align }};
               "
             >
@@ -26,6 +25,7 @@
                 style="
                   font-size:{{block.settings.font-size}}px;
                   {%if block.settings.line-height%} line-height:{{block.settings.line-height}};{%endif%}
+                  color: {{ block.settings.text_color }};
                 "
               >
                 {{ block.settings.content }}
