@@ -20,6 +20,35 @@
     "advertorial_iKffjt": {
       "type": "advertorial",
       "blocks": {
+        "sticky_bAAxkM": {
+          "type": "sticky",
+          "settings": {
+            "margin_top": 20,
+            "margin_right": 0,
+            "margin_bottom": 0,
+            "margin_left": 0,
+            "text": "Follow Us",
+            "facebook": "shopify:\/\/shop_images\/Background.png",
+            "facebook_url": "",
+            "instagram": "shopify:\/\/shop_images\/Background.png",
+            "instagram_url": "",
+            "twitter": "shopify:\/\/shop_images\/Background.png",
+            "twitter_url": "",
+            "pinterest": "shopify:\/\/shop_images\/Background.png",
+            "pinterest_url": "",
+            "logo": "shopify:\/\/shop_images\/5f0fa2d6eea37c4e148477d9_blissy-logo-500_png.png",
+            "header": "<p>You'll Never Sleep On Cotton Again!<\/p>",
+            "font-size-header": 24,
+            "line-height-header": 1.5,
+            "font-size-content": 16,
+            "line-height-content": 1.5,
+            "main_image": "shopify:\/\/shop_images\/5f0fa2d6eea37c6d778477f7_blissy-box-500_jpg.png",
+            "content": "<p>Get the Blissy 100% MulberrySilk Pillowcase for better sleep,smooth hair and glowing skin.<\/p>",
+            "content_alignment": "center",
+            "btn_text": "Check Availability",
+            "btn_url": ""
+          }
+        },
         "richtext_tHDTjz": {
           "type": "richtext",
           "settings": {
@@ -235,38 +264,10 @@
             "margin-left": 0,
             "margin-right": 0
           }
-        },
-        "sticky_bAAxkM": {
-          "type": "sticky",
-          "settings": {
-            "margin_top": 20,
-            "margin_right": 0,
-            "margin_bottom": 0,
-            "margin_left": 0,
-            "text": "Follow Us",
-            "facebook": "shopify:\/\/shop_images\/Background.png",
-            "facebook_url": "",
-            "instagram": "shopify:\/\/shop_images\/Background.png",
-            "instagram_url": "",
-            "twitter": "shopify:\/\/shop_images\/Background.png",
-            "twitter_url": "",
-            "pinterest": "shopify:\/\/shop_images\/Background.png",
-            "pinterest_url": "",
-            "logo": "shopify:\/\/shop_images\/5f0fa2d6eea37c4e148477d9_blissy-logo-500_png.png",
-            "header": "<p>You'll Never Sleep On Cotton Again!<\/p>",
-            "font-size-header": 24,
-            "line-height-header": 1.5,
-            "font-size-content": 16,
-            "line-height-content": 1.5,
-            "main_image": "shopify:\/\/shop_images\/5f0fa2d6eea37c6d778477f7_blissy-box-500_jpg.png",
-            "content": "<p>Get the Blissy 100% MulberrySilk Pillowcase for better sleep,smooth hair and glowing skin.<\/p>",
-            "content_alignment": "center",
-            "btn_text": "Check Availability",
-            "btn_url": ""
-          }
         }
       },
       "block_order": [
+        "sticky_bAAxkM",
         "richtext_tHDTjz",
         "richtext_hQLxHi",
         "richtext_6nzNQr",
@@ -277,8 +278,7 @@
         "richtext_wWjNzQ",
         "richtext_Y4B6nE",
         "richtext_hrXrCt",
-        "richtext_nDDrBF",
-        "sticky_bAAxkM"
+        "richtext_nDDrBF"
       ],
       "settings": {
       }
